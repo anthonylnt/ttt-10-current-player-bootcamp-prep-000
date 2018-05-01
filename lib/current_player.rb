@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0
-  board.each {|array| if }
-  board[] == "" || " " ? counter += 1 : false
+  board.each {|array| counter += 1 if }
+  board[] == "" || " " ?  : false
 end
 
 def current_player
